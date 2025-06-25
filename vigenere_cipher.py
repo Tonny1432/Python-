@@ -1,5 +1,5 @@
 text = 'mrttaqrhknsw ih puggrur'
-custom_key = 'python'
+custom_key = 'happycodding'
 
 def vigenere(message, key, direction=1):
     key_index = 0
