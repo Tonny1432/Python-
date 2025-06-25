@@ -1,4 +1,3 @@
-# Python-
  Vigenère Cipher Project
 
 This project encrypts and decrypts secret messages using the Vigenère cipher.
