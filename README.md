@@ -1,15 +1,17 @@
- Vigenère Cipher Project
+ Custom Python Encryption Tool 🔐
 
-This project encrypts and decrypts secret messages using the Vigenère cipher.
+This is a custom-built encryption script in Python that uses the position of each letter in the alphabet and multiplies it by the length of a user-provided keyword.
 
-✅ Features:
-- Encrypt a message using a key
-- Decrypt the message back to original
-- Ignores spaces and keeps them in output
+🚀 How It Works
 
-📌 Example:
-- Encrypted: mrttaqrhknsw ih puggrur
-- Key: happycoding
-- Decrypted: freecodecamp is awesome
+- Letters are converted to numbers (a=0 to z=25).
+- Each number is multiplied by the length of the keyword.
+- The resulting number is broken into tens and units.
+- The sum of those digits determines the encrypted letter.
+- Non-letter characters (like spaces) are preserved.
 
-✅ Created using Python.
+💬 Example
+
+Input:my name is tonny marcus ferguson
+Key: cobra
+Output:gm lagc ej ohllm ganbkj hcndkjhl
