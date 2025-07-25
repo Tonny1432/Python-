@@ -1,17 +1,28 @@
- Custom Python Encryption Tool 🔐
+Arithmetic Arranger 🧮
 
-This is a custom-built encryption script in Python that uses the position of each letter in the alphabet and multiplies it by the length of a user-provided keyword.
+This Python project arranges a list of arithmetic problems (addition and subtraction) vertically and side-by-side, formatted like a worksheet. 
 
-🚀 How It Works
+---
 
-- Letters are converted to numbers (a=0 to z=25).
-- Each number is multiplied by the length of the keyword.
-- The resulting number is broken into tens and units.
-- The sum of those digits determines the encrypted letter.
-- Non-letter characters (like spaces) are preserved.
+🚀 Features
 
-💬 Example
+- Supports addition and subtraction.
+- Arranges problems vertically with consistent spacing.
+- Validates:
+  - Only digits are used.
+  - Maximum of 4 digits per number.
+  - Maximum of 5 problems.
+- Optional display of the answers.
 
-Input:my name is tonny marcus ferguson
-Key: cobra
-Output:gm lagc ej ohllm ganbkj hcndkjhl
+
+ 📌 Example
+
+```python
+from arithmetic_arranger import arithmetic_arranger
+
+print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True))
+output:
+   32      3801      45      123
++ 698    -    2    + 43    +  49
+-----    ------    ----    -----
+  730      3799      88      172
