@@ -1,28 +1,22 @@
-Arithmetic Arranger 🧮
+# Bank Account Simulation - Python OOP
 
-This Python project arranges a list of arithmetic problems (addition and subtraction) vertically and side-by-side, formatted like a worksheet. 
+This is my first Object-Oriented Programming project in Python.  
+It simulates basic bank account operations like deposit, withdrawal, and balance display using classes, methods, and instance attributes.
 
----
+## 📌 Features
+- Create a bank account with an account holder name and initial balance.
+- Deposit money into the account.
+- Withdraw money from the account (with insufficient funds check).
+- Display the current account balance.
 
-🚀 Features
+## 🛠 Technologies Used
+- Python 3
+- Object-Oriented Programming (OOP) concepts
 
-- Supports addition and subtraction.
-- Arranges problems vertically with consistent spacing.
-- Validates:
-  - Only digits are used.
-  - Maximum of 4 digits per number.
-  - Maximum of 5 problems.
-- Optional display of the answers.
+The account holder name: Tonny
+Current balance: 1000
+You have deposited: 255
+You have withdrawn: 500
+Balance: 755
 
 
- 📌 Example
-
-```python
-from arithmetic_arranger import arithmetic_arranger
-
-print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True))
-output:
-   32      3801      45      123
-+ 698    -    2    + 43    +  49
------    ------    ----    -----
-  730      3799      88      172
