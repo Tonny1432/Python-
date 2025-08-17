@@ -1,22 +1,17 @@
-# Bank Account Simulation - Python OOP
+# OOP Vehicle Inheritance (Python)
 
-This is my first Object-Oriented Programming project in Python.  
-It simulates basic bank account operations like deposit, withdrawal, and balance display using classes, methods, and instance attributes.
+A simple Python example demonstrating Object-Oriented Programming concepts:
+- Inheritance (Vehicle → Car, Bike, Bus, Truck)
+- Constructor (`__init__`)
+- Method overriding and `super()`
 
-## 📌 Features
-- Create a bank account with an account holder name and initial balance.
-- Deposit money into the account.
-- Withdraw money from the account (with insufficient funds check).
-- Display the current account balance.
+## output 
+Model: Corolla
+Brand: Toyota
+Year: 2020
+Type: Sedan
+...
 
-## 🛠 Technologies Used
-- Python 3
-- Object-Oriented Programming (OOP) concepts
 
-The account holder name: Tonny
-Current balance: 1000
-You have deposited: 255
-You have withdrawn: 500
-Balance: 755
 
 
