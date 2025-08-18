@@ -1,17 +1,9 @@
-# OOP Vehicle Inheritance (Python)
+# OOP Shapes — Polymorphism & Inheritance (Python)
 
-A simple Python example demonstrating Object-Oriented Programming concepts:
-- Inheritance (Vehicle → Car, Bike, Bus, Truck)
-- Constructor (`__init__`)
-- Method overriding and `super()`
+A beginner-friendly project demonstrating Object-Oriented Programming in Python using a `Shape` base class and subclasses that override a shared method to compute area.
 
-## output 
-Model: Corolla
-Brand: Toyota
-Year: 2020
-Type: Sedan
-...
-
-
-
+## Features
+- Demonstrates **Inheritance** (child classes reuse `Shape`).
+- Demonstrates **Polymorphism** (each subclass overrides the same method).
+- Simple, clean code ideal for beginners and interview demos.
 
