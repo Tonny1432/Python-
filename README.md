@@ -1,23 +1,15 @@
-Number Guessing Game in Python
+Python Encapsulation Example
+Overview
 
-This is a simple interactive Python game in which the computer randomly selects a number between 1 and 100, and the player has 5 chances to guess it.
+This project demonstrates encapsulation in Python using class encapsulation.
+Encapsulation is an Object-Oriented Programming (OOP) concept that hides internal details of a class and restricts direct access to its attributes.
 
-Features
-- Random number generation using `random.randint`
-- User input validation
-- Game hints (high/low)
-- Count of attempts
-- Replay option after the game ends
+This example covers:
 
- How to Play
- Enter a number between 1 and 100.
- The game will tell you if your guess is too high, too low, or correct.
- You have **5 attempts** to guess the number correctly.
- After the game ends, you can choose to play again.
+Public attributes → Can be accessed anywhere.
 
- Code Highlights
- break: Exits the loop when the player wins or enters invalid input.
- continue: Skips to the next attempt if the guess is wrong.
- Random number generation ensures a new game every time.
+Protected attributes → Accessible, but by convention should only be used inside the class or subclasses.
+
+Private attributes → Cannot be accessed directly outside the class; can only be accessed via getter/setter methods.
 
 
