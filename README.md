@@ -1,15 +1,21 @@
-Python Encapsulation Example
-Overview
+Pattern Exploration – Recursive Growth
 
-This project demonstrates encapsulation in Python using class encapsulation.
-Encapsulation is an Object-Oriented Programming (OOP) concept that hides internal details of a class and restricts direct access to its attributes.
+This project explores a unique recursive sequence that starts with 1, 2, 3 and then doubles the sum of the last two values, creating a fast-growing pattern:
 
-This example covers:
+1, 2, 3, 6, 12, 24, 48, 96, ...
 
-Public attributes → Can be accessed anywhere.
+ Features
+- Generates the sequence in Python.  
+- Visualizes it as:
+  - 📈 A line chart (growth over steps).  
+  - 🌀 A spiral plot (nature-inspired representation).
+  -
+  Inspiration
+The pattern shows **recursive doubling**, similar to how shells, spirals, and natural growth patterns repeat and scale.
 
-Protected attributes → Accessible, but by convention should only be used inside the class or subclasses.
+How to Run
+```bash
+python pattern.py
 
-Private attributes → Cannot be accessed directly outside the class; can only be accessed via getter/setter methods.
 
 
