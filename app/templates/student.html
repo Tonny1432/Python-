@@ -1,0 +1,7 @@
+<h1>Student List</h1>
+
+<ul>
+  {% for student in students %}
+    <li>{{ student.name }} - {{ student.age }} - {{ student.reg_no }} - {{ student.dept}}</li>
+  {% endfor %}
+</ul>
