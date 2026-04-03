@@ -1,0 +1,11 @@
+<h2>Edit Student</h2>
+<form method="POST">
+  {% csrf_token %}
+  
+  Name: <br><input type="text" name="name" value="{{ edit.s_name }}"><br>
+  Age: <br><input type="number" name="age" value="{{ edit.s_age }}"><br>
+  Register no:<br> <input type="number" name="reg_no" value="{{ edit.s_reg }}"><br>
+  Department: <br><input type="text" name="department" value="{{ edit.s_dept }}"><br>
+  <button type="submit">Update</button>
+
+</form>

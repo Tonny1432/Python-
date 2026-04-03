@@ -1,0 +1,22 @@
+<h1><h1>list of students</h1>
+<form method="post">
+{% csrf_token %} 
+<h2>Enter the student details</h2>
+<br>
+Name:<br><input type="text" name="s.name"><br><br>
+Age:<br><input type="number" name="s.age"><br><br>
+Register no :<br><input type="number" name="s.reg"><br><br>
+Department:<br><input type="text" name="s.dept"><br><br>
+Email id:<br><input type="email" name="s.email"><br><br>
+<button type="submit">Add</button>
+<br>
+</form>Student List</h1>
+
+<ul>
+  {% for student in std %}
+    <li>{{ student.s_name }} - {{ student.s_age }} - {{student.s_reg}} - {{student.s_dept}} - {{student.s_email}}
+    <a href="/delete/{{student.id}}/">Delete</a>
+    <a href="/edit/{{student.id}}/">Update</a>
+  {% endfor %}
+</li>
+</ul>
